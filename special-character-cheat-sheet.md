@@ -5,6 +5,7 @@
 | thin space | <mark> </mark> | `&thinsp;` | Usage |
 | narrow non break space | <mark>&#8239;</mark> | `&#8239;` | Separating initials: D.&#8239;H. Lawrence |
 | hair space | <mark> </mark> | `&#8202;` | Usage |
+| zero-width space | <mark>&#8203;</mark> | `&#8203;` | separate a punctuation from the first letter to avoid the letter being selected by `::first-letter` |
 | hyphen | <mark>-</mark> | `&shy;` or keyboard | join words to combine meaning: "pick-me-up, goverment-mandated, Berners-Lee", indicating missing words: "short- and long-term effects", stutter: "p-p-please", join words broken at line end |
 | en dash | <mark>&ndash;</mark> | `&ndash;` | numerical range, (British) set off phrases to add emphasis (with normal space on both sides) |
 | em dash | <mark>&mdash;</mark> | `&mdash;` | (American) set off phrases to add emphasis (with hair space on both sides), indicate quote source (with normal space to the right), indicate speaker in quotes (with normal space to the right) |
