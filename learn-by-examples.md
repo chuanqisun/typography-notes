@@ -37,7 +37,23 @@
 36. italic vs obqlie [online reference](https://creativepro.com/typetalk-italic-vs-oblique/)
 37. bold: faux bold, and font weights (p112-114)
 38. underline skip (p117, safari only)
-
+39. old style vs lining numerals (p120-122) use for title vs body text
+40. use sub- and supper-script (p123) vs font built-in sub- super-script (p123-124)
+41. left align text, right align number, header match content (p130)
+42. align to decimal point (p131)
+43. tabular numerals (p133)
+44. collapse table border and use consistent padding (p134)
+45. table caption (p135)
+46. oblique heading for narrow table (p140)
+47. scrollable table within `<figure>` (p141)
+48. with and without kerning (p147)
+49. add tracking to phone number and uppercase title (p149-150)
+50. fix last character letter space (p149)
+51. overcooked letter spacing: click, flicker, final (p151)
+51. turn off ligature while letter spacing (p151)
+52. use viewport units to scale display/heading text--similar to how hero image is treated (p154-155)
+54. use hybrid formula to prevent over-scaling (p158)
+55. ensure wide shallow viewport works well (p95 + p160)
 
 
 ## demo controls
