@@ -11,7 +11,7 @@
 10. compare lang="en-GB" vs lang="en-US" for word advertisement when hyphens: auto (p50)
 11. manual hyphen vs auto hyphen for names, acronyms, etc. (p51)
 12. hyphenate-limmit-lines, hyphenate-limit-chars, hyphenate-limit-zone, hyphenate-limit-last (p52-56)
-13. the effect of `<meta name="viewport" content="width=device-width, initial-scale=1.0">` to mobile users. Combine the demo with 2. (p58)
+13. the effect of `<meta name="viewport" content="width=device-width, initial-scale=1.0">` to mobile users. (p58, ref.p19)
 14. use em instead of px for media query (p58)
 15. usage of space: non-break, thin, hair (p67-68)
 16. usage of accent character (p68)
@@ -26,7 +26,7 @@
 25. small caps and all small caps (p85-86)
 26. a type scale (p88) and additional reading from modular scale and [moby's trip](http://hwdesignco.com/webtype/typecast/rwt/)
 27. include screen height in media query (p95)
-28. select and style first line and/or first character (p98-101)
+28. select and style first line and/or first character (p98-101) 
 29. use reduced line-height for heading (p98)
 30. use zero-width space to select punctuation only (p102)
 31. indent paragraphs (p103-104)
@@ -54,7 +54,25 @@
 52. use viewport units to scale display/heading text--similar to how hero image is treated (p154-155)
 54. use hybrid formula to prevent over-scaling (p158)
 55. ensure wide shallow viewport works well (p95 + p160)
-
+56. use `ch` to ensure desired line breaks
+57. hanging quotation for centered text (ref.p106 + 163)
+58. swatches for flourish display (p166)
+59. stylistic alternates and style sets (p168)
+60. use line-height or half of it as bottom margin (p172)
+61. combine line-height, top-, bottom-margin (p173)
+62. break smaller text rhythm but rejoins them every multiple lines (p174)
+63. responsive `<aside>` (p182)
+64. multi-column layout, handle wide short screen with height mediau query (p190-191 ref. p58, p19)
+65. use grey scale antialias for large white on black text (p201)
+66. use condensed type for larger screen (p250)
+67. use system font for functional text (p260-261) [apple manual](https://webkit.org/blog/3709/using-the-system-font-in-web-content
+68. use local font with caution (p272)
+69. demo FOIT and FOUT (p273)
+70. font-display (p274)
+71. preload critical font (p275) and synthesize until on-demand fonts are loaded (p276)
+72. picking fallback font stack (p278)
+73. `font-size-adjust` to minimize FOUT
+74. variable fonts (p284) [demo](https://www.axis-praxis.org)
 
 ## demo controls
 1. css value input: dropdown select, numeric input, slider etc.

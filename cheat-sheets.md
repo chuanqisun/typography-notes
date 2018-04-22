@@ -8,19 +8,27 @@
 ## OpenType features
 font-feature-settings => font-variant mapping
 1. font-variant-ligatures
-    1. liga => common-ligatures
-    2. dlig => discretionary-ligatures
-    3. hist => historical-ligatures
+    1. liga 1 => common-ligatures
+    2. dlig 1 => discretionary-ligatures
+    3. hist 1 => historical-ligatures
 2. font-variant-caps
-    1. smcp => small-caps
-    2. smcp + c2sc => all-small-caps
+    1. smcp 1 => small-caps
+    2. smcp 1 + c2sc 1 => all-small-caps
 3. font-variant-numeric
-    1. onum => oldstyle-nums
-    2. lnum => lining-nums
-    3. tnum => tabular-nums
-    4. pnum => propotional-nums
+    1. onum 1 => oldstyle-nums
+    2. lnum 1 => lining-nums
+    3. tnum 1 => tabular-nums
+    4. pnum 1 => propotional-nums
 4. font-variant-position
-    1. subs => sub
-    2. sups => super
+    1. subs 1 => sub
+    2. sups 1 => super
 5. font-kerning
-    1. kern => normal
+    1. kern 1 => normal
+6. font-variant-alternates:
+    1. hist 1 => historical-forms
+    2. salt n => stylistic(n)
+    3. ss01-ss99 1 => styleset(1-99)
+    4. cv01-cv99 1 => character-variant(1-99)
+    5. swsh n, cswh n => swash(n)
+    6. ornm n => ornaments(n)
+    7. nalt n => annotation(n)
